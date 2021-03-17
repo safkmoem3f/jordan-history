@@ -1,0 +1,158 @@
+/*Background color: #F0EDEB*/
+/*Font color: #222222*/
+/*Accent color: #F66A00 Note! Use only with big text*/
+
+body {
+    width: 80vw;
+    background-color: #F0EDEB;
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+    color: #222222;
+}
+
+body h1, h2 {
+    font-family: 'Rubik', sans-serif;
+    color: #F66A00;
+}
+
+body h4 {
+    font-family: 'Rubik', sans-serif;
+    color: #222222;
+}
+
+#header {
+    width: 100%;
+    height: 80px;
+    background-color: #F0EDEB;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+}
+
+#header h2 {
+    padding-top: 5px;
+    color: #222222;
+    float: left;
+}
+
+#header h4 {
+    padding-top: 10px;
+    padding-right: 5px;;
+    color: #222222;
+    float: right;
+}
+
+#big-container {
+    width: 100%;
+    height: 650px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.text-container {
+    width: 50%;
+    height: 650px;
+    float: left;
+    padding: 30px 100px 100px 100px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.text-container ul {
+    float: left;
+    padding-left: 60px;
+    list-style-type: none;
+}
+
+.img-container {
+    width: 50%;
+    height: 650px;
+    float: left;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    object-fit: fill;
+}
+
+.small-text {
+    float: right;
+    font-size: 0.9em;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+}
+
+.text-container a {
+    margin-right: 10px;
+    padding: 2px;
+}
+
+a:hover {
+    background-color: #F66A00;
+    color: white;
+}
+
+footer {
+    clear: left;
+    width: 100%;
+    height: 100px;
+    padding: 5px 50px 0px 20px;
+    background-color: #F66A00;
+    box-sizing: border-box;
+}
+
+footer h2 {
+    margin-top: 10px;
+    float: left;
+    color: white;
+}
+
+@media screen and (max-width: 1350px) {
+    #header {
+        overflow: hidden;
+    }
+
+    #big-container {
+        height: 50%;
+    }
+
+    .text-container {
+        clear: left;
+        width: 100%;
+        height: 50%;
+        padding: 20px;
+    }
+
+    .img-container {
+        clear: left;
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .text-container ul {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 0.8em;
+    }
+
+    #header h2 {
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .text-container ul {
+        padding-left: 20px;
+    }
+}
