@@ -148,7 +148,7 @@ footer p {
 
 
 @media screen and (max-width: 1060px) {
-    body {
+    #big-container {
         height: 50%;
     }
 
