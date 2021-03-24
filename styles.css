@@ -121,16 +121,10 @@ footer p {
     body {
         font-size: 1em;
     }
-    
+
     .text-container {
-        height: 85vh;
-        padding: 30px 100px 100px 100px;
+        padding: 80px 100px 100px 100px;
     }
-    
-    .img-container {
-        height: 85vh;
-    }
-    
 }
 
 @media screen and (max-width: 1450px) {
