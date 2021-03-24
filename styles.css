@@ -50,6 +50,10 @@ body h4 {
     overflow: hidden;
 }
 
+#big-container img {
+    width: 100%;
+}
+
 .text-container {
     width: 50%;
     height: 85vh;
