@@ -147,11 +147,11 @@ footer p {
 }
 
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 1060px) {
     body {
         height: 50%;
     }
-    
+
     .text-container ul {
         padding-left: 50px;
     }
