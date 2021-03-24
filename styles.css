@@ -160,7 +160,18 @@ footer p {
     .text-container ul {
         padding-left: 50px;
     }
+}
 
+@media screen and (max-width: 1020px) {
+    footer {
+        clear: both;
+        height: 10vh;
+        padding: 0px 10px 0px 10px;
+    }
+
+    footer p {
+        margin: 0px;
+    }
 }
 
 @media screen and (max-width: 720px) {
@@ -175,6 +186,10 @@ footer p {
     .img-container img {
         object-fit: fill;
         object-position: 0 -200px;
+    }
+
+    footer p {
+        padding: 0px;
     }
 }
 
